@@ -1,0 +1,35 @@
+name: store
+description: Catálogo de celulares y administración básica conectados a Spring Boot.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.2
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.6.0
+  provider: ^6.1.5+1
+  cupertino_icons: ^1.0.8
+  go_router: ^18.1.3
+  image_picker: ^1.2.4
+  intl: ^0.20.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/app_icon.jpg
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterVariable.ttf
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/app_icon.jpg"
+  remove_alpha_ios: true
